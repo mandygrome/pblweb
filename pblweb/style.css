@@ -1,0 +1,164 @@
+body {
+    color:aliceblue;
+    font-size: small;
+    
+}
+.topic{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.btn {
+    border-radius: 5em;
+    outline: 0;
+    display: inline-block;
+    padding:  8px;
+    border-spacing: 5px;
+    color:black;
+    background-color: rgb(250, 253, 253);
+    text-align: center;
+    cursor: pointer;
+    width: 15%;
+    border-color: rgb(0, 15, 15);
+    flex:1;
+    margin: 0px 55px;
+  }
+  .btn:hover{
+    background-color: rgb(84, 242, 242);
+
+  }
+  .menubar{
+    color: aliceblue;
+    font-size: x-large;
+    padding: 1em;
+    word-spacing: 2em;
+
+  }
+  .ppt{
+    color: aliceblue;
+    font-size: medium;
+    font-weight: bold;
+
+  }
+  .intro{
+    text-align: left;
+    font-size: x-large;
+  }
+  #reviews{
+    padding: 50px;
+    background-color: #070707;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.reviews-heading-row{
+    display: flex;
+    margin: 30px 0px;
+}
+.reviews-heading{
+    flex: 1;
+}
+.reviews-heading h2{
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+.reviews-row{
+    display:flex;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    background-color: #070707;
+    box-shadow: 0 40px 80px 0 rgba(192, 190, 190, 0.2), 0 50px 100px 0 rgba(195, 194, 194, 0.19);
+    margin: 40px 20px;
+    border-radius: 10px;
+    padding: 0px 30px 20px 30px;
+}
+.review-img img{
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(56, 56, 56, 0.2), 0 15px 15px 0 rgba(56, 56, 56, 0.2);
+    margin-top: -40px;
+}
+.review-message{
+    color: #fff;
+    margin: 30px 0px;
+    line-height: 25px;
+}
+.student-name{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight:bolder;
+}
+.menu{
+  flex: 3;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-links{
+  margin: 0px 15px;
+}
+.menu-links a{
+  text-decoration: none;
+  color: #faf5f5;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+.menu-links a:hover{
+  color: #0b27f8;
+}
+.image{
+  text-align: center;
+}
+#contact{
+  padding: 50px;
+}
+.contact-container{
+  display: flex;
+}
+.contact-details{
+  flex: 1;
+  padding: 30px;
+}
+.contact-details-heading{
+  color: #f7b500;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.contact-detail-row{
+  display: flex;
+  margin: 10px 0px;
+}
+.contact-icon{
+  
+  color: #0b27f8;
+  padding: 10px;
+  border-radius: 50%;
+}
+.contact-content{
+  margin-left: 15px;
+}
+.contact-title{
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.contact-description{
+  color: #fff;
+}
+.separator{
+  height: 1px;
+  background-color: #626262;
+  margin: 20px 0px;
+}
+.social-icons{
+  margin: 10px 20px 0px 0px;
+  font-size: 30px;
+  color: #0b27f8;
+}
+.cds{
+  padding: 0px 150px;
+}
